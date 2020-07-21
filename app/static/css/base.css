@@ -1,0 +1,94 @@
+html {
+    font-family: 'monospace', sans-serif;
+}
+
+body,
+.container-fluid {
+    padding: 0;
+}
+
+.navbar .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: brown;
+}
+
+.navbar {
+    background-color: green;
+    color: brown;
+    border-radius: 0;
+    margin: 0 !important;
+    z-index: 1;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, .15);
+}
+
+.navbar-toggle {
+    color: #14213d;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: brown;
+}
+
+#pitch {
+    font-size: 22px;
+    font-family: 'monospace', cursive;
+}
+
+.navbar-right {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'monospace', cursive;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form {
+    padding-top: 1%;
+}
+
+.dropdown-menu {
+    padding: 8px;
+}
+
+@media (min-width: 768px) {
+    .navbar .btn {
+        padding: 8px;
+        font-size: 14px;
+        line-height: 1;
+        float: right;
+        background-color: brown;
+        color: grey;
+        box-shadow: 0 0.2rem 0.5rem rgba(103, 110, 144, .2), 0 0 0 0.1rem rgba(103, 110, 144, .05);
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .btn {
+        margin: 0 !important;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .row {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

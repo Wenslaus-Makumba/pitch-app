@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}" type="text/css">
+{% endblock styles%}
+<!-- Content block -->
+{% block content %}
+<div class="container text-center">
+    
+    <div class="text-content">
+        <h1>Welcome to pitch perfect</h1>
+        
+    </div>
+</div>
+{% endblock %}

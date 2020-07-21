@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+
+
+.text-content {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    left: 45%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.card{
+    position: relative;
+    padding: 3rem;
+    margin: 2%;
+    width:100%;
+    height: 31rem;
+   
+}
+.card .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+}
+.types{
+    padding-left: 2%;
+    padding-right: 2%;
+    /* vertical-align: middle; */
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    img {
+        object-position: 16%;
+    }
+
+    .text-content {
+        position: absolute;
+        top: 5%;
+        right: 3%;
+        left: 35%;
+    }
+    .card{
+        height: 24rem;
+        padding: 2rem;
+    }
+    .card .btn{
+        position: absolute;
+        bottom: 5%;
+        right: 33%;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
